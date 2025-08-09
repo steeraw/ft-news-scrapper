@@ -1,0 +1,57 @@
+# --- Python bytecode/cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Test / coverage caches ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# --- Linters / type-checkers ---
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# --- Editors / OS junk ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Env files ---
+.env
+.env.*
+!.env.example
+
+# --- Local data / logs ---
+*.log
+logs/
+tmp/
+.cache/
+
+# --- SQLite (for local development) ---
+*.sqlite3
+*.db
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Docker artifacts you might create locally ---
+docker-data/
+
+# --- Development ---
+dev.txt
